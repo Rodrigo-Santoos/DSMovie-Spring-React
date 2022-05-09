@@ -1,1 +1,24 @@
+/*importando a fonte do google*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+/*cor primaria do tema do site*/
+:root {
+  --color-primary: #4D41C0;
+}
+
+/*todos os componentes tera isso*/
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*a cor de fundo da pagina*/
+html, body {
+    background-color: #e8e8e8;
+}
+
+/*todos os links da pagina*/
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
