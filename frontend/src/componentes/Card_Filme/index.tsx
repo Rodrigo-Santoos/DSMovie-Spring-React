@@ -1,4 +1,5 @@
 import Avaliacao_Filme from "componentes/Avaliaçao_Filme";
+import { Link } from "react-router-dom";
 
 function Card_filme() {
 
@@ -16,7 +17,10 @@ function Card_filme() {
             <div className="dsmovie-card-bottom-container">
                 <h3>{movie.title}</h3>
                 <Avaliacao_Filme />
-                <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+
+                <Link to={`/form/${movie.id}`}>
+                    <div className="btn btn-primary dsmovie-btn">Avaliar</div>
+                </Link>
             </div>
         </div>
     );
