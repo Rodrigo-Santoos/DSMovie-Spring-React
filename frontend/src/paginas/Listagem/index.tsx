@@ -1,6 +1,9 @@
+/*importando a imagem*/ 
+import Paginacao from "componentes/Paginacao";
+
 function Listagem(){
     return(
-        <h1>Pagina de Listagem</h1>
+        <Paginacao />
     )
 }
 
